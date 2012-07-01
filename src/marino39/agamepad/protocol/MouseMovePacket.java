@@ -34,7 +34,7 @@ public class MouseMovePacket implements Packet {
 		byte[] xb = ConvertUtil.toByta(x);
 		data[2] = xb[0]; data[3] = xb[1]; data[4] = xb[2];
 		data[5] = xb[3]; 
-		byte[] yb = ConvertUtil.toByta(x);
+		byte[] yb = ConvertUtil.toByta(y);
 		data[6] = yb[0]; data[7] = yb[1]; data[8] = yb[2];
 		data[9] = yb[3]; 
 		return data;
